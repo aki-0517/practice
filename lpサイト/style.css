@@ -1,0 +1,106 @@
+html{
+  margin: 0px;
+  padding: 0px;
+}
+
+.kiiro{
+  background-color: rgb(249, 186, 14);
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.header{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.header>img{
+  width: 40%;
+  padding-bottom: 5px;
+}
+
+.slide>img{
+  width: 100%;
+  height: 500px;
+}
+
+a {
+  color: black;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+a:hover{
+  color: brown;
+}
+
+.menu1>ul>li{
+  display: inline-block;
+  width: auto;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.menu2{
+  width: 100%;
+}
+
+.list1{
+  background-color: rgb(249, 186, 14);
+  height: 120px;
+  line-height:120px;
+  text-align: center;
+  border: 4px solid black;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  font-weight: 800;
+  font-size: 40px;
+  box-shadow: 10px 5px 10px rgb(162, 160, 160);
+}
+
+.menu2-yoko{
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  line-height:120px;
+}
+
+.list2{
+  border: 4px solid black;
+  width: 48%;
+  text-align: center;
+  background-color: azure;
+  font-weight: 800;
+  font-size: 40px;
+  box-shadow: 10px 5px 10px rgb(162, 160, 160);
+}
+
+.list3{
+  border: 4px solid black;
+  width: 48%;
+  text-align: center;
+  background-color: azure;
+  font-weight: 800;
+  font-size: 40px;
+  box-shadow: 10px 5px 10px rgb(162, 160, 160);
+}
+
+.setumei{
+  text-align: center;
+  background-color: rgb(190, 200, 200);
+  font-weight: 800;
+  height: 200px;
+  line-height: 60px;
+  font-size: 20px;
+}
+
+.setumei>a{
+  color: brown;
+}
+
+footer{
+  display: flex;
+  width: 725px;
+}
